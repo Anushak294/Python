@@ -1,0 +1,58 @@
+
+Python Data Types Examples
+
+1. Integer (int)
+a = 10
+print("Integer:", a, type(a))
+
+2. Float (float)
+b = 10.5
+print("Float:", b, type(b))
+
+3. String (str)
+c = "Hello Python"
+print("String:", c, type(c))
+
+4. Boolean (bool)
+d = True
+print("Boolean:", d, type(d))
+
+5. List (list) - mutable
+my_list = [1, 2, 3, "apple"]
+print("List:", my_list, type(my_list))
+
+6. Tuple (tuple) - immutable
+my_tuple = ("Kiwi", "Orange", "Apple")
+print("Tuple:", my_tuple, type(my_tuple))
+
+7. Set (set) 
+my_set = {1, 2, 3, 3, 2}
+print("Set:", my_set, type(my_set))
+
+8. Dictionary (dict) - key-value pairs
+my_dict = {
+    "name": "John",
+    "age": 25,
+    "city": "Mysore"
+}
+print("Dictionary:", my_dict, type(my_dict))
+
+
+
+Type Conversion Examples
+
+x = "100"
+y = int(x)   # string to integer
+print("Converted to int:", y, type(y))
+
+z = float(a)  # int to float
+print("Converted to float:", z, type(z))
+
+
+
+Example
+
+name = "Rahul"
+age = 22
+
+print("My name is", name, "and I am", age, "years old")
