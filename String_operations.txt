@@ -1,0 +1,29 @@
+1.String Membership Check in Python
+
+str1 = "I love cars"
+
+if "I" in str1:
+    print("I is present")
+else:
+    print("I is not present")
+
+if "z" in str1:
+    print("z is present")
+else:
+    print("z is not present")
+
+
+2.Alphabet and Case Validation in Python
+
+a = "MANgo123"
+
+if a.isalpha():
+    if a.isupper():
+        print("everything is upper")
+    elif a.islower():
+        print("lower")
+    else:
+        print("mixed case")
+else:
+    print("not everything present is alphabet")
+
