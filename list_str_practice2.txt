@@ -1,0 +1,52 @@
+6)Convert numeric strings to integers
+a = ["10", "hello", "20", "world"]
+numbers = []
+for i in a:
+    if i.isdigit():
+        numbers.append(int(i))
+print(numbers)
+
+
+7)Find uppercase strings
+a = ["HELLO", "Hi", "WORLD", "python"]
+upper = []
+for i in a:
+    if i.isupper():
+        upper.append(i)
+print(upper)
+
+
+8)Count alphabets and numbers
+a = ["abc", "123", "xyz", "4567"]
+alpha = 0
+num = 0
+for i in a:
+    if i.isalpha():
+        alpha += 1
+    elif i.isdigit():
+        num += 1
+print("alphabets =", alpha, "numbers =", num)
+
+
+9)Remove non-alphabet elements
+a = ["cat", "123", "dog", "456", "lion"]
+words = []
+for i in a:
+    if i.isalpha():
+        words.append(i)
+print(words)
+
+
+10)Separate words, numbers, mixed
+a = ["cat", "123", "abc123", "dog", "456"]
+words = []
+numbers = []
+mixed = []
+for i in a:
+    if i.isalpha():
+        words.append(i)
+    elif i.isdigit():
+        numbers.append(i)
+    else:
+        mixed.append(i)
+print("Q10:", words, numbers, mixed)
