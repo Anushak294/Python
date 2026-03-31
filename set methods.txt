@@ -1,0 +1,34 @@
+# Set Methods Practice
+
+s = {1, 2, 3, 4}
+
+1)add()
+s.add(5)
+print("After add:", s)
+
+2)remove()
+s.remove(2)
+print("After remove:", s)
+
+3)discard()
+s.discard(10)  # no error if element not present
+print("After discard:", s)
+
+4)pop()
+s.pop()
+print("After pop:", s)
+
+5)union()
+a = {1, 2, 3}
+b = {3, 4, 5}
+print("Union:", a.union(b))
+
+6)intersection()
+print("Intersection:", a.intersection(b))
+
+7)difference()
+print("Difference:", a.difference(b))
+
+8)clear()
+s.clear()
+print("After clear:", s)
