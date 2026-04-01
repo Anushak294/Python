@@ -1,0 +1,54 @@
+DICTIONARY PROGRAMS
+
+1. Create and Access Dictionary
+student = {"name": "Anusha", "age": 20, "course": "ECE"}
+print(student["name"])
+print(student.get("age"))
+
+2. Add and Update Values
+student = {"name": "Anusha", "age": 20}
+student["course"] = "ECE"   # Add
+student["age"] = 21         # Update
+print(student)
+
+3. Remove Elements
+student = {"name": "Anusha", "age": 20, "course": "ECE"}
+student.pop("age")
+student.popitem()
+del student["name"]
+print(student)
+
+4. Loop Through Dictionary
+student = {"name": "Anusha", "age": 20, "course": "ECE"}
+for key in student:
+    print(key, student[key])
+for k, v in student.items():
+    print(k, v)
+
+5. Dictionary Methods
+d = {"a": 1, "b": 2}
+print(d.keys())
+print(d.values())
+print(d.items())
+d.update({"c": 3})
+print(d)
+d.clear()
+print(d)
+
+6. Count Frequency of Elements
+data = ["a", "b", "a", "c", "b", "a"]
+freq = {}
+for i in data:
+    freq[i] = freq.get(i, 0) + 1
+print(freq)
+
+7. Merge Two Dictionaries
+d1 = {"a": 1}
+d2 = {"b": 2}
+d1.update(d2)
+print(d1)
+
+8. Dictionary Comprehension
+square = {x: x*x for x in range(1, 6)}
+print(square)
+
