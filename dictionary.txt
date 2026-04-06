@@ -6,7 +6,7 @@ print(student["name"])
 print(student.get("age"))
 
 2. Add and Update Values
-student = {"name": "Anusha", "age": 20}
+student = {"name": "Anusha", "age": 20} 
 student["course"] = "ECE"   # Add
 student["age"] = 21         # Update
 print(student)
