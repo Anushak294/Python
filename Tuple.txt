@@ -1,0 +1,41 @@
+# TUPLES IN PYTHON (NOTES)
+
+
+Definition:
+A tuple is an ordered, immutable collection of elements.
+It allows duplicate values and is written using round brackets ().
+
+1. Creating a Tuple
+t1 = (10, 20, 30, 40)
+print("Tuple:", t1)
+
+2. Accessing Elements
+t2 = (100, 200, 300)
+print("First element:", t2[0])
+print("Third element:", t2[2])
+
+3. Tuple is Immutable
+t3 = (1, 2, 3)
+t3[0] = 10   # This will give error because tuple cannot be changed
+
+4. Tuple with Different Data Types
+t4 = (10, "Hello", 3.5)
+print("Mixed tuple:", t4)
+
+5. Single Element Tuple
+t5 = (5,)   # comma is important
+print("Single element tuple:", t5)
+
+6. Tuple Methods
+t6 = (1, 2, 2, 3, 2)
+print("Count of 2:", t6.count(2))
+print("Index of 3:", t6.index(3))
+
+7. Difference between List and Tuple
+List  -> mutable, uses []
+tuple -> immutable, uses ()
+
+8. When to Use Tuple
+Use tuple when data should not change
+location = (12.97, 77.59)
+print("Location coordinates:", location)
