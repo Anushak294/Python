@@ -16,3 +16,5 @@ for ch in a:
 print("Vowels:", v_count)
 print("Consonants:", c_count)
 
+
+
